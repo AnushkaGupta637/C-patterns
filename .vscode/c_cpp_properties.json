@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c11",  // Keep this as c11 if you're working with C files
+            "cppStandard": "c++17",  // Keep this as c++17 for C++ files
+            "intelliSenseMode": "windows-gcc-x64",  // Use gcc-x64 for MinGW
+            "compilerPath": "C:\\MinGW\\bin\\g++.exe"
+        }
+    ],
+    "version": 4
+}
